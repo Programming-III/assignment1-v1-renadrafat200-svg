@@ -1,13 +1,8 @@
 #ifndef ENCLOSURE_H
 #define ENCLOSURE_H
-
-#include "Animal.h"
-
-//define enclosure class here 
-
 #include<iostream>;
 include<string>;
-
+include "Animal.h";
 class Enclosure :public Animal {
 private:
 	Animal* animal;
@@ -20,8 +15,7 @@ public:
 	Enclosure(Animal* animal, int capacity, int currentCount, String name, int age, bool isHungry);
 	~Enclosure();
 }
-#endif;
-
+#endif
 
 
 
