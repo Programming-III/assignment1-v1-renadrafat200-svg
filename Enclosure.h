@@ -20,7 +20,7 @@ public:
 	Enclosure(Animal* animal, int capacity, int currentCount, String name, int age, bool isHungry);
 	~Enclosure();
 }
-#endif
+#endif;
 
 
 
