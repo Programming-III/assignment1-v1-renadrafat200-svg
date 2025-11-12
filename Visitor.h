@@ -14,7 +14,7 @@ public:
 	Visitor();
 	Visitor(String visitorName, int TicketBought);
 	void displayInfo();
-}
+};
 #endif
 
 //define visitor class here
