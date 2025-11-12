@@ -8,6 +8,7 @@
 using namespace std;
 
 ///class animal
+//class animal
 Animal::Animal() {
 	name = "";
 	age = 0;
@@ -18,13 +19,13 @@ Animal::Animal(String name, int age, bool isHungry) {
 	this -- > age = age;
 	this -- > isHungry = isHungry;
 }
-void Animal:: display() {
+void Animal ::display() {
 	cout << "display animal features" << endl;
 	cout << name << endl;
 	cout << age << endl; '
 	cout << isHungry << endl;
 }
-void Animal::feed() {
+void Animal :: feed() {
 	if (isHungry == false) {
 		cout << "animal is not hungry" << endl;
 	else 
@@ -64,7 +65,7 @@ Bird::Bird():Animal() {
 	age = 0;
 	isHungry = false;
 }
-Bird::Bird(float wingSpan, String name, int age, bool isHungry);Animal(name, age, isHungry) {
+Bird::Bird(float wingSpan, String name, int age, bool isHungry):Animal(name, age, isHungry) {
 	this -- > wingSpan = wingSpan;
 }
 Bird::~Bird() {
