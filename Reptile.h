@@ -16,7 +16,7 @@ public:
 	Reptile(bool isVenomous, String name, int age, bool isHungry);
 	~Reptile();
 
-}
+};
 
 
 
