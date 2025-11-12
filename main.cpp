@@ -18,13 +18,13 @@ Animal::Animal(String name, int age, bool isHungry) {
 	this -- > age = age;
 	this -- > isHungry = isHungry;
 }
-void display() {
+void Animal:: display() {
 	cout << "display animal features" << endl;
 	cout << name << endl;
 	cout << age << endl; '
 	cout << isHungry << endl;
 }
-void feed() {
+void Animal::feed() {
 	if (isHungry == false) {
 		cout << "animal is not hungry" << endl;
 	else 
@@ -32,13 +32,13 @@ void feed() {
 	}
 }
 
-String getname() {
+String Animal :: getname() {
 	return name;
 }
-int getage() {
+int Animal :: getage() {
 	return age;
 }
-bool getH() {
+bool Animal :: getH() {
 	return isHungry;
 }
 Animal::~Animal() {};
